@@ -24,8 +24,6 @@ Add a login form to your frontend that will allow a logged in admin user to perf
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - HTML
 - CSS
 - JavaScript
