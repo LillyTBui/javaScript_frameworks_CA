@@ -1,36 +1,46 @@
-# Your project title
+# JavaScript Frameworks CA
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
-A simple overview of the use/purpose of the project.
+![image](homepage_screenshot.png)
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+Build a frontend for the API and add the following:
 
-You can add some bullet points if you'd like to:
+#### Home page
+- Make a GET request to fetch a list of resources from your API.
+- Create HTML for each item and display at least 3 properties for each.
+- Each item should also display a button or icon. Clicking on this button should toggle the item in and out of an array stored in localStorage.
+- There should be a text input on this page that filters the array of results on one of the properties.
 
-- List item 1
-- List item 2
-- List item 3
+#### Favourites page
+- This page should fetch the array of items stored in localStorage and display them or display a message that there are no items.
+- There should be a “Clear all” button that clears localStorage (or just a specific key in localStorage) and reloads the display. Don’t reload the page, just redraw the HTML.
+
+#### Login page
+Add a login form to your frontend that will allow a logged in admin user to perform the following tasks:
+- Adding new resources to the API
+- Updating resources through an edit form
+- Deleting resources
 
 ## Built With
 
 You can list a the tech stack that you've used over here
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML
+- CSS
+- JavaScript
+- React
+- React Bootstrap
+- WordPress REST API
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:LillyTBui/javaScript_frameworks_CA.git
 ```
 
 2. Install the dependencies:
@@ -41,30 +51,12 @@ npm install
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
 To run the app, run the following commands:
 
 ```bash
 npm run start
 ```
 
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
-
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+[My LinkedIn page](https://www.linkedin.com/in/lilly-thi-bui-479920233/)
